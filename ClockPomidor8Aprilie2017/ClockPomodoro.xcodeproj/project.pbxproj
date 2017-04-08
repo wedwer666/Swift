@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8209FA661E952418003611D6 /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8209FA651E952418003611D6 /* View3.swift */; };
+		82166B791E93A672000840AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82166B781E93A672000840AB /* AppDelegate.swift */; };
+		82166B7E1E93A672000840AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82166B7C1E93A672000840AB /* Main.storyboard */; };
+		82166B801E93A672000840AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82166B7F1E93A672000840AB /* Assets.xcassets */; };
+		82166B831E93A672000840AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82166B811E93A672000840AB /* LaunchScreen.storyboard */; };
+		82166B8E1E93A672000840AB /* ClockPomodoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82166B8D1E93A672000840AB /* ClockPomodoroTests.swift */; };
+		82166B991E93A672000840AB /* ClockPomodoroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82166B981E93A672000840AB /* ClockPomodoroUITests.swift */; };
+		82166BA71E93D061000840AB /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82166BA61E93D061000840AB /* sound.mp3 */; };
+		82166BA91E93D732000840AB /* fanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82166BA81E93D732000840AB /* fanfare.mp3 */; };
+		824C1B221E968C9300506001 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824C1B211E968C9300506001 /* ViewController.swift */; };
+		824C1B241E968CA000506001 /* myTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824C1B231E968CA000506001 /* myTableViewController.swift */; };
+		824C1B261E968D5100506001 /* testTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824C1B251E968D5100506001 /* testTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82166B8A1E93A672000840AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82166B6D1E93A672000840AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82166B741E93A672000840AB;
+			remoteInfo = ClockPomodoro;
+		};
+		82166B951E93A672000840AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82166B6D1E93A672000840AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82166B741E93A672000840AB;
+			remoteInfo = ClockPomodoro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8209FA651E952418003611D6 /* View3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
+		82166B751E93A672000840AB /* ClockPomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockPomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82166B781E93A672000840AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82166B7D1E93A672000840AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82166B7F1E93A672000840AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82166B821E93A672000840AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82166B841E93A672000840AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82166B891E93A672000840AB /* ClockPomodoroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockPomodoroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82166B8D1E93A672000840AB /* ClockPomodoroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockPomodoroTests.swift; sourceTree = "<group>"; };
+		82166B8F1E93A672000840AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82166B941E93A672000840AB /* ClockPomodoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockPomodoroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82166B981E93A672000840AB /* ClockPomodoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockPomodoroUITests.swift; sourceTree = "<group>"; };
+		82166B9A1E93A672000840AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82166BA61E93D061000840AB /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		82166BA81E93D732000840AB /* fanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fanfare.mp3; sourceTree = "<group>"; };
+		824C1B211E968C9300506001 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		824C1B231E968CA000506001 /* myTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myTableViewController.swift; sourceTree = "<group>"; };
+		824C1B251E968D5100506001 /* testTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82166B721E93A672000840AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82166B861E93A672000840AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82166B911E93A672000840AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82166B6C1E93A672000840AB = {
+			isa = PBXGroup;
+			children = (
+				82166B771E93A672000840AB /* ClockPomodoro */,
+				82166B8C1E93A672000840AB /* ClockPomodoroTests */,
+				82166B971E93A672000840AB /* ClockPomodoroUITests */,
+				82166B761E93A672000840AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82166B761E93A672000840AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82166B751E93A672000840AB /* ClockPomodoro.app */,
+				82166B891E93A672000840AB /* ClockPomodoroTests.xctest */,
+				82166B941E93A672000840AB /* ClockPomodoroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82166B771E93A672000840AB /* ClockPomodoro */ = {
+			isa = PBXGroup;
+			children = (
+				82166B781E93A672000840AB /* AppDelegate.swift */,
+				82166B7C1E93A672000840AB /* Main.storyboard */,
+				824C1B211E968C9300506001 /* ViewController.swift */,
+				824C1B231E968CA000506001 /* myTableViewController.swift */,
+				824C1B251E968D5100506001 /* testTableViewCell.swift */,
+				82166B7F1E93A672000840AB /* Assets.xcassets */,
+				82166B811E93A672000840AB /* LaunchScreen.storyboard */,
+				82166BA61E93D061000840AB /* sound.mp3 */,
+				82166BA81E93D732000840AB /* fanfare.mp3 */,
+				82166B841E93A672000840AB /* Info.plist */,
+				8209FA651E952418003611D6 /* View3.swift */,
+			);
+			path = ClockPomodoro;
+			sourceTree = "<group>";
+		};
+		82166B8C1E93A672000840AB /* ClockPomodoroTests */ = {
+			isa = PBXGroup;
+			children = (
+				82166B8D1E93A672000840AB /* ClockPomodoroTests.swift */,
+				82166B8F1E93A672000840AB /* Info.plist */,
+			);
+			path = ClockPomodoroTests;
+			sourceTree = "<group>";
+		};
+		82166B971E93A672000840AB /* ClockPomodoroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82166B981E93A672000840AB /* ClockPomodoroUITests.swift */,
+				82166B9A1E93A672000840AB /* Info.plist */,
+			);
+			path = ClockPomodoroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82166B741E93A672000840AB /* ClockPomodoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82166B9D1E93A672000840AB /* Build configuration list for PBXNativeTarget "ClockPomodoro" */;
+			buildPhases = (
+				82166B711E93A672000840AB /* Sources */,
+				82166B721E93A672000840AB /* Frameworks */,
+				82166B731E93A672000840AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClockPomodoro;
+			productName = ClockPomodoro;
+			productReference = 82166B751E93A672000840AB /* ClockPomodoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82166B881E93A672000840AB /* ClockPomodoroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82166BA01E93A672000840AB /* Build configuration list for PBXNativeTarget "ClockPomodoroTests" */;
+			buildPhases = (
+				82166B851E93A672000840AB /* Sources */,
+				82166B861E93A672000840AB /* Frameworks */,
+				82166B871E93A672000840AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82166B8B1E93A672000840AB /* PBXTargetDependency */,
+			);
+			name = ClockPomodoroTests;
+			productName = ClockPomodoroTests;
+			productReference = 82166B891E93A672000840AB /* ClockPomodoroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82166B931E93A672000840AB /* ClockPomodoroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82166BA31E93A672000840AB /* Build configuration list for PBXNativeTarget "ClockPomodoroUITests" */;
+			buildPhases = (
+				82166B901E93A672000840AB /* Sources */,
+				82166B911E93A672000840AB /* Frameworks */,
+				82166B921E93A672000840AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82166B961E93A672000840AB /* PBXTargetDependency */,
+			);
+			name = ClockPomodoroUITests;
+			productName = ClockPomodoroUITests;
+			productReference = 82166B941E93A672000840AB /* ClockPomodoroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82166B6D1E93A672000840AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ClockPomodoroProject;
+				TargetAttributes = {
+					82166B741E93A672000840AB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EH78GMB4UX;
+						ProvisioningStyle = Automatic;
+					};
+					82166B881E93A672000840AB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EH78GMB4UX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82166B741E93A672000840AB;
+					};
+					82166B931E93A672000840AB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EH78GMB4UX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82166B741E93A672000840AB;
+					};
+				};
+			};
+			buildConfigurationList = 82166B701E93A672000840AB /* Build configuration list for PBXProject "ClockPomodoro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82166B6C1E93A672000840AB;
+			productRefGroup = 82166B761E93A672000840AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82166B741E93A672000840AB /* ClockPomodoro */,
+				82166B881E93A672000840AB /* ClockPomodoroTests */,
+				82166B931E93A672000840AB /* ClockPomodoroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82166B731E93A672000840AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82166BA91E93D732000840AB /* fanfare.mp3 in Resources */,
+				82166B831E93A672000840AB /* LaunchScreen.storyboard in Resources */,
+				82166B801E93A672000840AB /* Assets.xcassets in Resources */,
+				82166B7E1E93A672000840AB /* Main.storyboard in Resources */,
+				82166BA71E93D061000840AB /* sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82166B871E93A672000840AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82166B921E93A672000840AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82166B711E93A672000840AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824C1B221E968C9300506001 /* ViewController.swift in Sources */,
+				8209FA661E952418003611D6 /* View3.swift in Sources */,
+				824C1B261E968D5100506001 /* testTableViewCell.swift in Sources */,
+				82166B791E93A672000840AB /* AppDelegate.swift in Sources */,
+				824C1B241E968CA000506001 /* myTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82166B851E93A672000840AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82166B8E1E93A672000840AB /* ClockPomodoroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82166B901E93A672000840AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82166B991E93A672000840AB /* ClockPomodoroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82166B8B1E93A672000840AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82166B741E93A672000840AB /* ClockPomodoro */;
+			targetProxy = 82166B8A1E93A672000840AB /* PBXContainerItemProxy */;
+		};
+		82166B961E93A672000840AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82166B741E93A672000840AB /* ClockPomodoro */;
+			targetProxy = 82166B951E93A672000840AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82166B7C1E93A672000840AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82166B7D1E93A672000840AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82166B811E93A672000840AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82166B821E93A672000840AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82166B9B1E93A672000840AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82166B9C1E93A672000840AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82166B9E1E93A672000840AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = EH78GMB4UX;
+				INFOPLIST_FILE = ClockPomodoro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ClockPomodoroProject.hello.ClockPomodoro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82166B9F1E93A672000840AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = EH78GMB4UX;
+				INFOPLIST_FILE = ClockPomodoro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ClockPomodoroProject.hello.ClockPomodoro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82166BA11E93A672000840AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EH78GMB4UX;
+				INFOPLIST_FILE = ClockPomodoroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ClockPomodoroProject.hello.ClockPomodoroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClockPomodoro.app/ClockPomodoro";
+			};
+			name = Debug;
+		};
+		82166BA21E93A672000840AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EH78GMB4UX;
+				INFOPLIST_FILE = ClockPomodoroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ClockPomodoroProject.hello.ClockPomodoroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClockPomodoro.app/ClockPomodoro";
+			};
+			name = Release;
+		};
+		82166BA41E93A672000840AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EH78GMB4UX;
+				INFOPLIST_FILE = ClockPomodoroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ClockPomodoroProject.hello.ClockPomodoroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ClockPomodoro;
+			};
+			name = Debug;
+		};
+		82166BA51E93A672000840AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EH78GMB4UX;
+				INFOPLIST_FILE = ClockPomodoroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ClockPomodoroProject.hello.ClockPomodoroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ClockPomodoro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82166B701E93A672000840AB /* Build configuration list for PBXProject "ClockPomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82166B9B1E93A672000840AB /* Debug */,
+				82166B9C1E93A672000840AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82166B9D1E93A672000840AB /* Build configuration list for PBXNativeTarget "ClockPomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82166B9E1E93A672000840AB /* Debug */,
+				82166B9F1E93A672000840AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82166BA01E93A672000840AB /* Build configuration list for PBXNativeTarget "ClockPomodoroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82166BA11E93A672000840AB /* Debug */,
+				82166BA21E93A672000840AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82166BA31E93A672000840AB /* Build configuration list for PBXNativeTarget "ClockPomodoroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82166BA41E93A672000840AB /* Debug */,
+				82166BA51E93A672000840AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82166B6D1E93A672000840AB /* Project object */;
+}
