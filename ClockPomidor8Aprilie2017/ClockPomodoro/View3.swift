@@ -12,22 +12,29 @@ import UIKit
 
 class View3: UIViewController
 {
-    
+//    var data = ["Press 30 secunde","Mers pe bicicleta ","Invatare swift","Learing 30 secunde!","Somn","Food" ,
+//                "Shoping","Sarituri","Muzica","Dans","Odihna","Vizualizare video"]
     @IBOutlet weak var input: UITextField!
     
-    @IBAction func addItem(_ sender: Any)
-    {
-        if (input.text != "")
-        {
-           // list.append(input.text!)
-            input.text = " "
-        }
-    }
+    //var titleString: String!
+    @IBOutlet weak var titleLabel: UILabel!
+    
+//    @IBAction func addItem(_ sender: Any)
+//    {
+//        if (input.text != "")
+//        {
+//           data.append(input.text!)
+//            input.text = " "
+//        }
+//    }
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //self.titleLabel.text = self.titleString
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "red.jpg")!)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

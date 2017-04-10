@@ -60,7 +60,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         ///tableController = storyboard?.instantiateViewController(withIdentifier: "testController") as! myTableViewController
+        
         NotificationCenter.default.addObserver(self, selector: #selector(ViewController.setname(not:)), name: NSNotification.Name(rawValue: "setTaskName"), object: nil)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "red.jpg")!)
     }
     func setname(not:Notification)
     {

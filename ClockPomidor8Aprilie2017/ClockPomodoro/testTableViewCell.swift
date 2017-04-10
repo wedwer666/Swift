@@ -11,6 +11,10 @@ import UIKit
 class testTableViewCell: UITableViewCell {
 
     @IBOutlet weak var testNameLabel: UILabel!
+    
+    @IBOutlet weak var titileLabel: UILabel!
+    @IBOutlet weak var shareButton: UIButton!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
